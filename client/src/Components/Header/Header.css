@@ -1,0 +1,42 @@
+.navbar{
+  height: 80px;
+}
+.wrapper{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+div > img{
+  height: 30px;
+  width: 30px;
+  border-radius: 10px;
+}
+.item {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  cursor: pointer;
+}
+.left{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+
+}
+.center {
+  font-size: 30px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.center:hover{
+  color: orangered;
+  font-size: xx-large;
+  transition: all 0.3 ease;
+}
+      
+.right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
